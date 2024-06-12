@@ -1,7 +1,10 @@
+import Navbar from "./components/Navbar"
 
 
 function App() {
-  return <p>nothing yet</p>
+  return (
+    <Navbar/>
+  )
 }
 
 export default App
