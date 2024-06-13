@@ -1,5 +1,10 @@
 import { nanoid } from 'nanoid';
-import { FaHtml5, FaJs, FaReact,FaNodeJs } from 'react-icons/fa';
+import { FaHtml5, FaJs, FaReact,FaNodeJs} from 'react-icons/fa';
+import { RiNextjsLine } from "react-icons/ri";
+import { SiMongodb } from "react-icons/si";
+import { FaAws } from "react-icons/fa";
+<FaAws />
+
 
 export const links = [
   { id: nanoid(), href: '#home', text: 'home' },
@@ -9,12 +14,7 @@ export const links = [
 ];
 
 export const skills = [
-  {
-    id: nanoid(),
-    title: 'HTML&CSS',
-    icon: <FaHtml5 className='h-16 w-16 text-emerald-500' />,
-    text: 'Highly skilled in HTML & CSS, adeptly crafting visually appealing and responsive websites for optimal user experiences.',
-  },
+ 
   {
     id: nanoid(),
     title: 'Javascript',
@@ -35,7 +35,18 @@ export const skills = [
   ,{
     id: nanoid(),
     title: 'Node',
-    icon: <FaNodeJs className='h-16 w-16 text-emerald-500' />,
+    icon: <RiNextjsLine className='h-16 w-16 text-emerald-500' />,
+    text: 'Advanced proficiency in React, developing efficient and interactive front-end applications with a strong emphasis on component-based architecture.',
+  },{
+    id: nanoid(),
+    title: 'Node',
+    icon: <SiMongodb className='h-16 w-16 text-emerald-500' />,
+    text: 'Advanced proficiency in React, developing efficient and interactive front-end applications with a strong emphasis on component-based architecture.',
+  },
+  {
+    id: nanoid(),
+    title: 'Node',
+    icon: <FaAws className='h-16 w-16 text-emerald-500' />,
     text: 'Advanced proficiency in React, developing efficient and interactive front-end applications with a strong emphasis on component-based architecture.',
   },
 ];
