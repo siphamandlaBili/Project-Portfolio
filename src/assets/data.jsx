@@ -63,7 +63,7 @@ export const projects = [
   {
     id: nanoid(),
     img: 'https://th.bing.com/th/id/OIP.ygFsoaBXzNEsBUrgMOvQywHaHa?rs=1&pid=ImgDetMain',
-    url: 'https://whimsical-entremet-2828ef.netlify.app/',
+    url: 'https://react-vite-projects-17-cocktails.netlify.app/',
     github: 'https://github.com/siphamandlaBili/drinks-web',
     title: 'coctails recipe',
     text: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Asperiores aperiam porro impedit tenetur quo hic omnis doloribus dolores enim deleniti.',
